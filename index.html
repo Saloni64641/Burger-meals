@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Meal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img src="logo.webp" alt="">
+            </div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Services</li>
+                <li>Reviews</li>
+                <li>About us</li>
+            </ul>
+        </nav>
+        </div>
+        
+        <div class="container">
+            <div class="innercontainer">
+                <h1>Burger Meal</h1>
+                <p>Get the Tastiest Burger Here just at Rs.59!</p>
+                <button>Order Now</button>
+            </div>
+        </div>
+
+    </header>
+
+
+    <section>
+        <div class="brands">
+            <h2>Our Burger Meals</h2>
+            <div class="meals">
+                <div class="meal1">
+                    <img src="Cheeseburger Cups.jpg" alt="">
+                    <p>Cheeseburger Cups</p>
+                    <p>Rs. 129</p>
+                    <button class="order">Order Now</button>
+                </div>
+                <div class="meal1">
+                    <img src="Cheesy Breakfast Burgers.jpg" alt="">
+                    <p>Cheesy Breakfast Burgers</p>
+                    <p>Rs. 129</p>
+                    <button class="order">Order Now</button>
+                </div>
+                <div class="meal1">
+                    <img src="Chicken Parm Burgers.jpeg" alt="">
+                    <p>Chicken Parm Burgers</p>
+                    <p>Rs. 129</p>
+                    <button class="order">Order Now</button>
+                </div>
+                <div class="meal1">
+                    <img src="chiken burger.jpg" alt="">
+                    <p>chiken burger</p>
+                    <p>Rs. 129</p>
+                    <button class="order">Order Now</button>
+                </div>
+                <div class="meal1">
+                    <img src="classic cheese burger.jpeg" alt="">
+                    <p>classic cheese burger</p>
+                    <p>Rs. 129</p>
+                    <button class="order">Order Now</button>
+                </div>
+                <div class="meal1">
+                    <img src="Classic Veggie Burgers.jpeg" alt="">
+                    <p>Classic Veggie Burgers</p>
+                    <p>Rs. 129</p>
+                    <button class="order">Order Now</button>
+                </div>
+                <div class="meal1">
+                    <img src="Greek Stuffed Turkey Burgers.jpg" alt="">
+                    <p>Greek Stuffed Turkey Burgers</p>
+                    <p>Rs. 129</p>
+                    <button class="order">Order Now</button>
+                </div>
+                <div class="meal1">
+                    <img src="Pizza Burgers.jpg" alt="">
+                    <p>Pizza Burgers</p>
+                    <p>Rs. 129</p>
+                    <button class="order">Order Now</button>
+                </div>
+                <div class="meal1">
+                    <img src="turkey burger.webp" alt="">
+                    <p>Turkey burger</p>
+                    <p>Rs. 129</p>
+                    <button class="order">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+
+        let order = document.getElementsByClassName("order");
+        console.log(order);
+
+        Array.from(order)
+        .forEach(element => {
+            element.addEventListener("click",()=>{
+                alert("Your order has been placed");
+            })
+        });
+        
+
+    </script>
+
+</body>
+</html>

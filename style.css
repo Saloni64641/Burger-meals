@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    width: 90%;
+    margin: auto;
+}
+
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo img{
+    width: 80px;
+}
+
+.header nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header nav ul li{
+    cursor: pointer;
+}
+
+header .container{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    margin: 20px 0;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+header .container .innercontainer{
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+header .container .innercontainer h1{
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+header .container .innercontainer p{
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+header .container .innercontainer button{
+    width: fit-content;
+    font-size: 30px;
+    padding: 10px 25px;
+    background-color: #fe5900;
+    /* border: 1px solid whitesmoke; */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+
+section .brands h2{
+    /* text-align: center; */
+    font-size: 50px;
+    margin: 50px 0;
+}
+
+section .brands .meals{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px 0;
+    align-items: center;
+    margin: 20px 0;
+}
+
+section .brands .meals .meal1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+section .brands .meals .meal1 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+section .brands .meals .meal1 p{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+section .brands .meals .meal1 button{
+    width: fit-content;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #FE5900;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
